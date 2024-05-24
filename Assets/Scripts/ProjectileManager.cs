@@ -5,6 +5,8 @@ using UnityEngine;
 public class ProjectileManager : MonoBehaviour
 {
     [SerializeField] GameObject objCursor;
+    [SerializeField] Transform trsCannon;
+
     Camera camMain;
     void Start()
     {
